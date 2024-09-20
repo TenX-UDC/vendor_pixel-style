@@ -18,26 +18,13 @@
 PRODUCT_PACKAGES += \
     AccessibilityMenuOverlay \
     BuiltInPrintServiceOverlay \
-    CaptivePortalLoginOverlay \
-    CellBroadcastReceiverOverlay \
-    CellBroadcastServiceOverlay \
     ContactsProviderOverlay \
     DMServiceOverlay \
     FlipendoOverlay \
-    GoogleConfigOverlay \
-    GoogleDeviceLockControllerOverlay \
     GoogleDialerConfOverlay \
-    GoogleHealthConnectOverlay \
-    GoogleWebViewOverlay \
     MediaProviderOverlay \
-    PixelConfigOverlay2018 \
-    PixelConfigOverlay2019 \
-    PixelConfigOverlay2019Midyear \
-    PixelConfigOverlayCommon \
     PixelDocumentsUIGoogleOverlay \
     PixelFwOverlay \
-    PixelLauncherCustomOverlay \
-    PixelSetupWizardOverlay \
     SettingsGoogleOverlay \
     SettingsProviderOverlay \
     SystemUIGoogleOverlay \
@@ -47,7 +34,6 @@ PRODUCT_PACKAGES += \
 
 ifneq ($(filter sailfish marlin walleye taimen blueline crosshatch sargo bonito flame coral sunfish bramble redfin barbet oriole raven bluejay panther cheetah lynx tangorpro felix shiba husky akita caiman, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
-    ManagedProvisioningPixelOverlay \
     PixelBatteryHealthOverlay
 endif
 
